@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    /* overflow-x: hidden; */
+
+}
+body {
+    font-size: 18px;
+    line-height: 1.4;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+h3{
+    font-size: 1.5rem;
+}
+h4{
+    color:  hsl(201, 11%, 66%);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.container{
+    background-image: url("/home/vishwanath/Desktop/clipboard-landing-page-master/images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    color: hsl(210, 10%, 33%);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+}
+.section{
+    text-align: center;
+    padding-top: 6rem;
+    width: 80%;
+    margin: auto;
+}
+.logo-img{
+    width: 4rem;
+    height: 4rem;
+}
+.section h1{
+    letter-spacing: 0.1rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+.section p{
+    width: 60%;
+    margin: 1.5rem auto 1.5rem auto;
+    color:  hsl(201, 11%, 66%);
+    font-size: 1.17rem;
+}
+.main-buttons{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    column-gap: 1rem;
+justify-content: center;
+}
+.main-buttons button{
+    width: 30%;
+    height: 3.3rem;
+    border-radius: 5rem;
+    background-color:  hsl(171, 66%, 44%);
+    margin-right: 1rem;
+     outline: none;
+    border: none;
+    color: white;
+    transition: 0.2s;
+    cursor: pointer;
+    box-shadow: -1px 7px 5px -2px rgb(107 103 107);
+    font-size: 1rem;
+}
+.main-buttons .button2{
+    background-color: hsl(233, 100%, 69%);
+}
+.two h3{
+
+    margin-bottom: 1rem;
+}
+.two h4{
+    width: 80%;
+    margin: auto;
+   
+
+}
+.section-three{
+    display: flex;
+    margin-top: 5rem;
+    column-gap: 4rem;
+}
+.section-three-right{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+    width: 50%;
+    padding: 2rem  5rem ;
+}
+.section-three-left{
+    width: 50%;
+}
+.section-three-left img{
+    width: 100%;
+}
+.four h4{
+    width: 70%;
+    margin: auto;
+}
+.section-five{
+    width: 50%;
+    margin: 3rem auto 0 auto;
+    
+}
+.section-five img{
+    width: 100%;
+}
+.section-seven{
+    display: flex;
+    width: 80%;
+    margin:  auto;
+    text-align: center;
+    column-gap: 5rem;
+    padding-top: 6rem;
+}
+.section-seven img{
+    margin-bottom: 2.5rem;
+    
+}
+.section-seven h3{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+.section-seven h4{
+    width: 100%;
+    line-height: 1.5rem;
+}
+.companys-patners{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    column-gap: 5rem;
+}
+.footer-main{
+
+    background-color: #f5f6f8;
+    padding-top: 3rem;
+    margin-top: 5rem;
+
+}
+.footer-inner{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    column-gap: 4rem;
+    background-color: #f5f6f8;
+}
+.logo{
+    width: 25%;
+}
+
+
+.feature{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.feature a{
+    text-decoration: none;
+    line-height: 3rem;
+    font-weight: 500;
+    color: hsl(210, 10%, 33%);
+}
+.socail-icon{
+    width: 25%;
+    letter-spacing: 2rem;
+    text-align: end;
+}
+@media  screen and (max-width: 1020px) {
+h3{
+    font-size: 3rem;
+}
+h4{
+    
+    font-size: 1.5rem;
+    
+}
+
+.section{
+    width: 70%;
+}
+.logo-img{
+    width: 8rem;
+    height: 8rem;
+}
+.section p{
+    width: 70%;
+}
+.main-buttons{
+    width: 100%;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+.main-buttons button{
+    width: 100%;
+    height: 5rem;
+    font-size: 2rem;
+}
+
+.section p{
+    width: 100%;
+    font-size: 1.9rem;
+}
+.two h4{
+    width: 100%;
+    
+}
+.section-three{
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+.section-three-left{
+    width: 100%;
+}
+.section-three-right h3{
+    font-size: 2rem;
+}
+
+.section-three-right{
+    
+    
+    width: 100%;
+    padding: 2rem 0;
+    text-align: center;
+}
+.four h4{
+    width: 100%;
+    
+}
+.section-five{
+    width: 70%;
+    margin: 3rem auto 0 auto;
+   
+}
+.section-seven{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+.section-seven img{
+    width: 15%;
+}
+.companys-patners{
+    width: 70%;
+    flex-direction: column;
+    row-gap: 5rem;
+}
+.companys-patners img{
+    width: 50%;
+}
+.footer-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo{
+    width: 100%;
+}
+
+
+.feature{
+    width: 100%;
+   
+}
+
+.socail-icon{
+    width: 100%;
+    text-align: center;
+}
+}
